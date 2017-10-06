@@ -1,0 +1,23 @@
+{
+  "name": "mysql_amazon_storefront",
+  "version": "1.0.0",
+  "description": "## What It Is And Does",
+  "main": "customer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JessRen/mysql_amazon_storefront.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JessRen/mysql_amazon_storefront/issues"
+  },
+  "homepage": "https://github.com/JessRen/mysql_amazon_storefront#readme",
+  "dependencies": {
+    "inquirer": "^3.3.0",
+    "mysql": "^2.15.0"
+  }
+}
