@@ -61,7 +61,9 @@ function buy(id, purchase) {
             console.log("Thank you for your Order!");
             connection.query('UPDATE Products SET stock_quantity = stock_quantity - ' + purchase + ' WHERE item_id = ' + id);
 
- 		}
+ 		} else {
+      console.log("\nInsufficient Stock Available at this time =/ Contact the sales office for a special order, or to find out when we expect to restock the item\n")
+    }
  		queryAllData()
  	}
  )};  
